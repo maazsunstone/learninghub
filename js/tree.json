@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "parentId": 0,
+    "iconClass": "fa-tachometer",
+    "data": "Dashboard",
+    "children": [
+      {
+          id: 2,
+        [
+          {
+    id: 1,
+    parentId: 0,
+    iconClass: "fa-tachometer",
+    data: "Dashboard",
+    children: [
+              {
+        id: 2,
+        parentId: 1,
+        iconClass: "",
+        data: "Reports",
+        children: []
+              },
+              {
+        id: 3,
+        parentId: 1,
+        iconClass: "",
+        data: "Search",
+        children: []
+              }
+            ]
+          },
+          {
+    id: 4,
+    parentId: 0,
+    iconClass: "fa-tasks",
+    data: "Tasks",
+    children: [
+              {
+        id: 5,
+        parentId: 4,
+        iconClass: "",
+        data: "Today's tasks",
+        children: []
+              },
+              {
+        id: 6,
+        parentId: 4,
+        iconClass: "",
+        data: "DrillDown",
+        children: [
+                  {
+            id: 7,
+            parentId: 6,
+            iconClass: "",
+            data: "Recurring",
+            children: []
+                  },
+                  {
+            id: 8,
+            parentId: 6,
+            iconClass: "",
+            data: "Settings",
+            children: [
+                      {
+                id: 9,
+                parentId: 8,
+                iconClass: "",
+                data: "Overdues",
+                children: []
+                      },
+                      {
+                id: 10,
+                parentId: 8,
+                iconClass: "",
+                data: "Urgent",
+                children: []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+    id: 11,
+    parentId: 0,
+    iconClass: "fa-calendar",
+    data: "Calendar",
+    children: [
+              {
+        id: 12,
+        parentId: 11,
+        iconClass: "",
+        data: "Current Month",
+        children: []
+              },
+              {
+        id: 13,
+        parentId: 11,
+        iconClass: "",
+        data: "Current Week",
+        children: []
+              }
+            ]
+          },
+          {
+    id: 14,
+    parentId: 0,
+    iconClass: "fa-heart",
+    data: "Favourites",
+    children: [
+              {
+        id: 15,
+        parentId: 14,
+        iconClass: "",
+        data: "My favs",
+        children: []
+              },
+              {
+        id: 16,
+        parentId: 14,
+        iconClass: "",
+        data: "Team favs",
+        children: []
+              }
+            ]
+          },
+        ]
+          parentId: 1,
+          iconClass: "",
+          data: "Reports",
+          children: []
+      },
+      {
+          id: 3,
+          parentId: 1,
+          iconClass: "",
+          data: "Search",
+          children: []
+      }
+    ]
+  },
+  {
+      id: 4,
+      parentId: 0,
+      iconClass: "fa-tasks",
+      data: "Tasks",
+      children: [
+      {
+          id: 5,
+          parentId: 4,
+          iconClass: "",
+          data: "Today's tasks",
+          children: []
+      },
+      {
+          id: 6,
+          parentId: 4,
+          iconClass: "",
+          data: "DrillDown",
+          children: [
+          {
+              id: 7,
+              parentId: 6,
+              iconClass: "",
+              data: "Recurring",
+              children: []
+          },
+          {
+              id: 8,
+              parentId: 6,
+              iconClass: "",
+              data: "Settings",
+              children: [
+              {
+                  id: 9,
+                  parentId: 8,
+                  iconClass: "",
+                  data: "Overdues",
+                  children: []
+              },
+              {
+                  id: 10,
+                  parentId: 8,
+                  iconClass: "",
+                  data: "Urgent",
+                  children: []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+      id: 11,
+      parentId: 0,
+      iconClass: "fa-calendar",
+      data: "Calendar",
+      children: [
+      {
+          id: 12,
+          parentId: 11,
+          iconClass: "",
+          data: "Current Month",
+          children: []
+      },
+      {
+          id: 13,
+          parentId: 11,
+          iconClass: "",
+          data: "Current Week",
+          children: []
+      }
+    ]
+  },
+  {
+      id: 14,
+      parentId: 0,
+      iconClass: "fa-heart",
+      data: "Favourites",
+      children: [
+      {
+          id: 15,
+          parentId: 14,
+          iconClass: "",
+          data: "My favs",
+          children: []
+      },
+      {
+          id: 16,
+          parentId: 14,
+          iconClass: "",
+          data: "Team favs",
+          children: []
+      }
+    ]
+  },
+]
