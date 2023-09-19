@@ -58,6 +58,13 @@ function flat(arr){
 }
 console.log(flat(arr1))
 
+/**
+ * Using Flat from JS
+ */
+
+console.log(arr.flat(4))
+
+
 
 
 
